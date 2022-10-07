@@ -143,12 +143,15 @@ function initcell() {
 
             Odiv.children[0].style.display="none"
             Odiv.children[1].style.display="block"
-
+            
         }
         else {
             event.currentTarget.setAttribute("moshi", 0)
             Odiv.children[0].style.display="block"
             Odiv.children[1].style.display="none"
+            Odiv.children[1].value
+            Odiv.children[0].innerHTML=marked.parse(Odiv.children[1].value)
+            console.log(marked.parse(Odiv.children[1].value))
         }
 
     })
