@@ -1,4 +1,4 @@
-import { marked } from './node_modules/marked/lib/marked.esm.js'//导入markdwon
+
 let mark = marked.parse("**阳阳小法师的笔记**")
 console.log(mark)
 //添加序号 模式属性
