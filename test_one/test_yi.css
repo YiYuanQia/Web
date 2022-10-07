@@ -1,0 +1,41 @@
+#notebook {
+    max-width: 1000px;
+    margin: 0 auto;
+   
+}
+.cell {
+    width: 100%;
+    padding: 10px;
+
+    border: 1px solid rgb(54, 61, 142);
+    /* position: relative;
+    top: 10px; */
+}
+#menu {
+    width: 100px;
+    background-color: blue;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    
+}
+#menu input{
+    top: 0;
+    position: absolute;
+    
+}
+#edit {
+    height: 50px;
+    margin-left: 120px;
+}
+#details {
+    
+    width: 100px;
+    height: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
